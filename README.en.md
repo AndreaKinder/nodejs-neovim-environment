@@ -1,4 +1,6 @@
-English | [Portuguese](README.md)
+Link [docker-hub](https://hub.docker.com/r/andkinder/nodejs-neovim-environment)
+
+English | [Spanish](README.md)
 
 This repository contains a Dockerfile that sets up a development environment for Node.js with Neovim and other useful tools. The base image used is Alpine Linux, known for its lightness and efficiency. The Dockerfile installs a series of essential dependencies such as Git, LazyGit, FZF, Curl, Neovim, Ripgrep, Alpine SDK, NPM, and Node.js. Additionally, it clones the Neovim configuration repository LazyVim/starter and sets /workspace as the working directory. Finally, the container is kept running with the command tail -f /dev/null.
 
